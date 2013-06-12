@@ -53,8 +53,8 @@ class LigthSwitch:
     """ La clase cliente """
     def __init__(self):
         self.__lamp = Ligth()
-        "self.__switchUp = FlipUpCommand(self.__lamp)"
-        "self.__switchDown = FlipDownCommand(self.__lamp)"
+        self.__switchUp = FlipUpCommand(self.__lamp)
+        self.__switchDown = FlipDownCommand(self.__lamp)
         self.__switch = Switch(self.__switchUp, self.__switchDown)
         
     def switch(self,cmd):
