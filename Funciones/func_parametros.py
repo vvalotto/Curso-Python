@@ -4,6 +4,10 @@ Created on 29/03/2013
 @author: voval
 '''
 
+'''
+Funcion 3 - Parametros
+'''
+
 def total(inicial=5, *numeros, **claves):
     cuenta = inicial
     print(cuenta)

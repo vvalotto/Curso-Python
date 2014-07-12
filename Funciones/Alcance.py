@@ -5,7 +5,7 @@ Created on 28/03/2013
 '''
 def scope_test():
     def do_local():
-        spam= "local spam"
+        spam = "local spam"
     def do_nonlocal():
         nonlocal spam
         spam = "nonlocal spam"
