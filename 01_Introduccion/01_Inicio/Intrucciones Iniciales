@@ -1,0 +1,25 @@
+Para este primer modulo de Introducción, es mostrar el uso del interprete interactivo de comandos
+---
+1. Hola Mundo
+print ("Hola Mundo")
+
+---
+2. Calculadora
+>>> 6000 * 456.89
+2741340.0
+>>> 700 + 89.90
+789.9
+>>> 100 / 900
+0.1111111111111111
+>>> _ * 100
+11.11111111111111
+
+_ es una variable que mantiene el ultimo valor de la operación anterior
+
+---
+3. Programa Basico
+hola_mundo.py
+Ejecución desde la consola
+python hola_mundo.py
+
+

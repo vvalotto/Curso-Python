@@ -1,8 +1,4 @@
-'''
-Created on 29/03/2013
 
-@author: voval
-'''
 #Estructura de Control Condicional; IF
 
 numero = 23
