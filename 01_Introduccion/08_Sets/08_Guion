@@ -1,0 +1,28 @@
+Coleccion desordenada de objetos
+>>> s = set([3,4,5,9,14])
+>>> s
+{9, 3, 4, 5, 14}
+>>> s = set("Valotto")
+>>> s
+{'l', 'V', 'o', 'a', 't'}
+
+Operaciones de Objetos
+>>> nombre
+{'c', 'r', 'V', 't', 'i', 'o'}
+>>> apellido
+{'l', 'V', 'o', 'a', 't'}
+>>> union = nombre | apellido
+>>> union
+{'c', 'r', 'V', 't', 'i', 'o', 'a', 'l'}
+>>> interseccion = nombre & apellido
+>>> interseccion
+{'V', 'o', 't'}
+>>> dif = nombre - apellido
+>>> dir
+<built-in function dir>
+>>> dif
+{'c', 'r', 'i'}
+>>> sim = nombre ^ apellido
+>>> sim
+{'c', 'r', 'i', 'a', 'l'}
+

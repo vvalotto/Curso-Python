@@ -1,0 +1,18 @@
+Tuplas: estructuras de datos simples empaquetadas de manera conjunta.
+1. Uso de Consola
+soft = ("Python","v3.4.1","www.pyhton.org")
+stock = ("MacBook", 5, 20500)
+usuario = (nombre, constrasenia, perfil)
+proyectos = "PD", "INAES", "DM"
+
+Inicializacion de una tupla
+tupla = ()
+tupla = 100,
+
+Desempaquetar la tupla
+>>> articulo, cantidad, precio = stock
+>>> articulo
+'MacBook'
+
+Mismas operaciones que las listas, excepto que son inmutables.
+Es considerado como una estructura compuesta de manera cohesiva
