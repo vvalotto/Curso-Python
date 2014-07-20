@@ -1,0 +1,11 @@
+for: para iterar en una coleccion de items
+>>> lista = [1,3,5,7,9,11]
+>>> for n in lista:
+...     print("La potencia de 2 de {0} es {1}".format(n, n ** 2))
+
+>>> lista = range(100, 120)
+>>> for n in lista:
+...     print("En la posicion {0} esta el numero {1}".format(lista.index(n),n))
+>>> Equipo = {"lider": ["AM"], "Arquitecto": ["LS"], "Analista": ["PV"], "Desarrollador" : ["DM","PF","JL"]}
+>>> for rol in Equipo:
+...     print("El rol {0} lo tiene {1}".format(rol,Equipo[rol]))
