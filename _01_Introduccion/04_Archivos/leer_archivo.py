@@ -1,4 +1,4 @@
-#Lectura de un archiv
+#Lectura de un archivo
 
 f = open("nombres")
 linea = f.readline()
