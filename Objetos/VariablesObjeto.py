@@ -32,7 +32,3 @@ class Robot(object):
     @staticmethod   
     def Cuantos():
         print('Somos {0:d} robots'.format(Robot.poblacion))
-    
-
-        
-        
