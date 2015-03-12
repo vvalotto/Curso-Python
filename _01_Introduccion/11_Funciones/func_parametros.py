@@ -19,6 +19,6 @@ def total(inicial=5, *numeros, **claves):
         print(cuenta)
     return cuenta
 
-print(total(10,1,2,3, vegetales=50, frutas=100))
+print(total(10, 1, 2, 3, vegetales=50, frutas=100))
     
         
