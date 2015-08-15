@@ -1,0 +1,27 @@
+Requerimientos Previos
+
+Interprete de Python instalado (estamos usando la version 3.4)
+
+Ubicar el path donde está instalado e incorporarlo a la variable de entorno PATH
+
+Preparar el entorno virtual
+
+1. pip install virtualenv
+
+2. Ubicar en directorio de trabajo para el curso
+
+3. Crear el entorno virtual
+
+virtualenv envcurso
+
+4. Navegar por el entorno creado
+
+5. Activar el entorno
+
+cd envcurso
+source bin/activate
+
+6. Desactivar
+deactivate
+
+

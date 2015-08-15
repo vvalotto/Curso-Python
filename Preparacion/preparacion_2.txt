@@ -1,0 +1,7 @@
+Preparación del proyecto con control de versión
+
+Requisitos previos:
+
+Cliente de Git instalado y Git instalado
+
+Pycharm Instalado
