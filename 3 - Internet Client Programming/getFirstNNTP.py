@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import nntplib
-import socket
+import demo_socket
 
 HOST = 'your.nntp.server'
 GRNM = 'comp.lang.python'
@@ -11,7 +11,7 @@ PASS = "you'llNeverGuess"
 def main():
     try:
         n = nntplib.NNTP(HOST) #, user=USER, password=PASS)
-    except socket.gaierror, e:
+    except demo_socket.gaierror, e:
         print 'ERROR: cannot reach host "%s"' % HOST
         print '    ("%s")' % eval(str(e))[1]
         return 

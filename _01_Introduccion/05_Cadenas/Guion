@@ -1,0 +1,32 @@
+>>> #Cadenas
+>>> nombre = 'Python'
+>>> mismo_nombre = "Python"
+>>> nombre == mismo_nombre
+True
+>>> type(nombre)
+<class 'str'>
+>>> for l in nombre:
+...     print(l)
+...
+P
+y
+t
+h
+o
+n
+>>> nombre[3]
+'h'
+>>> nombre[3] = 5
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+>>> y in nombre
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'y' is not defined
+>>> 'y' in nombre
+True
+>>> nombre * 5
+'PythonPythonPythonPythonPython'
+>>> nombre + mismo_nombre
+'PythonPython'

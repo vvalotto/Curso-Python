@@ -5,7 +5,7 @@ from cStringIO import StringIO
 from imaplib import IMAP4_SSL
 from platform import python_version
 from poplib import POP3_SSL, error_proto
-from socket import error
+from demo_socket import error
 
 # SMTP_SSL added in 2.6, fixed in 2.6.3
 release = python_version()
