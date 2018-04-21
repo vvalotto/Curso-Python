@@ -1,2 +1,2 @@
-__author__ = 'voval'
+__author__ = 'Victor Valotto'
 __project__ = ''
